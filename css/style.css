@@ -88,3 +88,63 @@ body {
     line-height: 100;
     border-radius: 10px;
 }
+
+.model, .model-3 {
+    background: #121212;
+    padding: 40px 0;
+}
+
+.model .container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+
+.model__text {
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.model:last-of-type .container {
+    align-items: center;
+    column-gap: 100px;
+}
+
+.model-3 .container {
+    display: flex;
+    align-items: center;
+    column-gap: 88px;
+}
+
+.model-3__text {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.model-3__text:first-of-type::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    background: #c4c4c4;
+    right: -25%;
+    bottom: 50%;
+}
+.model-3__text:last-of-type::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    background: #c4c4c4;
+    left: -25%;
+    bottom: 50%;
+}
+
+.iPhone {
+    display: flex;
+}
+
+.iPhone_2 {
+    
+}
+
